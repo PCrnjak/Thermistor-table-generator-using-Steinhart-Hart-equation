@@ -1,7 +1,7 @@
 # Thermistor-table-generator-using-Steinhart-Hart-equation
 
-This code is used to create lookup tables for thermistors or similar semiconductors using Steinhart–Hart equation.
-This is useful for 3d printers and other devices that use thermistors but dont want to waste computing power by calculating temperature
+This code is used to create lookup tables for thermistors or similar semiconductors using the Steinhart–Hart equation.
+This is useful for 3d printers and other devices that use thermistors but dont want to waste computing power by calculating the temperature
 from equation shown at bottom. By using lookup table you can just read ADC value and that value is then mapped to correct temperature.
 
 The equation is:
@@ -22,12 +22,12 @@ All other modules should come when you download python
 
 Use
 ------------------
-You need to fill the bottom paramaters in this python script.
-R_series is resistor connected in series to your thermistor
-Table size is resolution of your ADC. In bottom example it is 10 bit ADC.
+You need to fill the bottom parameters in this python script.
+R_series is a resistor connected in series to your thermistor
+Table size is resolution of your ADC. In bottom example, it is 10 bit ADC.
 Vref is refrence voltage.
-T1,T2,T3 are precise temperatures that you will have to mesure and then read the resistances 
-Rt1,Rt2,Rt3 with multimeter. We need to mesure these parameters since we dont know A,B,C coeficients 
+T1,T2,T3 are precise temperatures that you will have to measure and then read the resistances 
+Rt1,Rt2,Rt3 with multimeter. We need to measure these parameters since we dont know A,B,C coeficients 
 that are needed to get our thermistor curve that will be used as lookup table.
 
     R_series = 51000
@@ -50,22 +50,25 @@ NOTE: use \\ when typing path
     # Save last element to csv file (this remove last comma)
     file = open(r'C:\\Users\\USER\\Desktop\\TABLE.txt','a')
     
-Once you filled those parameters run the script and you should get a curve like this one:
+Once you have filled those parameters run the script and you should get a curve like this one:
+
+![SLIKA_GRAF](https://user-images.githubusercontent.com/30388414/88311112-c9617680-cd10-11ea-9486-d5791e843893.png)
+
 
 Good temperature mesures
 ------------------------
-Getting good temperatures can be hard but you can get them at home by using bottom values:
+Getting good temperatures can be hard but you can get them at home by using bottom examples:
 
 * boiling water , should be 100 deg
-* Inside of your fridge , usually temperature inside of your fridge is writen on the door (5-10 deg)
-* Your body temperature , usually 36 deg can get that by using body thermometar
+* Inside of your fridge , usually temperature inside of your fridge is written on the door (5-10 deg)
+* Your body temperature , usually 36 deg can get that by using body thermometer
 
 By using these temperatures you get really nice range of temperatures for the table.
 
 # Support the project
 
 This project is part of S-drive BLDC driver and Faze4 Robotic arm projects. 
-This project is completely Open source and free to all and I would like to keep it that way, so any help in terms of donations or advice is really appreciated. Thank you!
+Those projects are completely Open source and free to all and I would like to keep it that way, so any help in terms of donations or advice is really appreciated. Thank you!
 
 [![Check the arm in action !](https://user-images.githubusercontent.com/30388414/86798915-a036ba00-c071-11ea-824d-4456f2cdf797.png)](https://paypal.me/PCrnjak?locale.x=en_US)
 
