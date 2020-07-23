@@ -10,7 +10,7 @@ The equation is:
 
 Where:
 T is the temperature (in kelvins),
-R is the resistance at {\displaystyle T}T (in ohms),
+R is the resistance at T (in ohms),
 A, B, and C are the Steinhart–Hart coefficients, which vary depending on the type and model of thermistor and the temperature range of interest.
 
 Needed modules
