@@ -1,0 +1,12 @@
+FILL THIS FILE WITH VAULES FOR THERMISTORS YOU TESTED
+
+////////////////////////////////
+https://www.aliexpress.com/item/1869426441.html?spm=a2g0s.9042311.0.0.23364c4dJ1RGWZ
+NTC 3950 Thermistors
+T1 = 10 
+T2 = 36 
+T3 = 100 
+Rt1 = 186000
+Rt2 = 64000
+Rt3 = 7000
+////////////////////////////////
