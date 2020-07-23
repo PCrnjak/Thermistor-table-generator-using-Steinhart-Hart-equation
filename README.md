@@ -69,7 +69,7 @@ Resources and additional testing
 --------------------------------
 
 This is great online tool to generate A,B,C coefficients. [Link](https://www.thinksrs.com/downloads/programs/therm%20calc/ntccalibrator/ntccalculator.html)
-You can help this project by uploading themperatures and resistances you mesured for other thermistors into this [File](https://www.thinksrs.com/downloads/programs/therm%20calc/ntccalibrator/ntccalculator.html)
+You can help this project by uploading themperatures and resistances you mesured for other thermistors into this [File](https://github.com/PCrnjak/Thermistor-table-generator-using-Steinhart-Hart-equation/blob/master/Tested_thermistors.txt)
 
 
 # Support the project
