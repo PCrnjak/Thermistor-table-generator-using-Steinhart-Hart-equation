@@ -53,6 +53,9 @@ NOTE: use \\ when typing path
     
 Once you filled those parameters run the script and you should get a curve like this one:
 
+<img src="https://user-images.githubusercontent.com/30388414/88304023-ffe6c380-cd07-11ea-9ed4-6dccc5c2cb4a.png" width="3000"> 
+
+
 Good temperature mesures
 ------------------------
 Getting good temperatures can be hard but you can get them at home by using bottom values:
