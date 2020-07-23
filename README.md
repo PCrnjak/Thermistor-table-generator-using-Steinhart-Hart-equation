@@ -16,7 +16,6 @@ A, B, and C are the Steinhart–Hart coefficients, which vary depending on the t
 Needed modules
 ------------------
 
-    ./configure
     pip install  matplotlib
      
 All other modules should come when you download python
@@ -31,7 +30,6 @@ T1,T2,T3 are precise temperatures that you will have to mesure and then read the
 Rt1,Rt2,Rt3 with multimeter. We need to mesure these parameters since we dont know A,B,C coeficients 
 that are needed to get our thermistor curve that will be used as lookup table.
 
-    ./configure
     R_series = 51000
     table_size = 1024
     Vref = 3.3
@@ -47,7 +45,6 @@ You will also need to type the location where you will save your table.txt file:
 Change the bottom location code to your desired location. 
 NOTE: use \\ when typing path
 
-    ./configure
     # Save array witout last element to csv file
     np.savetxt(r'C:\\Users\\USER\\Desktop\\TABLE.txt', T_table, newline = ',',fmt= '%-1.1d')
     # Save last element to csv file (this remove last comma)
@@ -66,8 +63,12 @@ Getting good temperatures can be hard but you can get them at home by using bott
 
 By using these temperatures you get really nice range of temperatures for the table.
 
-Donate
-------------------------
 
-Copyright
-------------------------
+# Support the project
+
+This project is part of S-drive BLDC driver and Faze4 Robotic arm projects. 
+This project is completely Open source and free to all and I would like to keep it that way, so any help in terms of donations or advice is really appreciated. Thank you!
+
+[![Check the arm in action !](https://user-images.githubusercontent.com/30388414/86798915-a036ba00-c071-11ea-824d-4456f2cdf797.png)](https://paypal.me/PCrnjak?locale.x=en_US)
+
+# Project is under GNU General Public License v3.0
