@@ -50,11 +50,7 @@ NOTE: use \\ when typing path
     # Save last element to csv file (this remove last comma)
     file = open(r'C:\\Users\\USER\\Desktop\\TABLE.txt','a')
     
-    
 Once you filled those parameters run the script and you should get a curve like this one:
-
-<img src="https://user-images.githubusercontent.com/30388414/88304023-ffe6c380-cd07-11ea-9ed4-6dccc5c2cb4a.png" width="3000"> 
-
 
 Good temperature mesures
 ------------------------
@@ -65,7 +61,6 @@ Getting good temperatures can be hard but you can get them at home by using bott
 * Your body temperature , usually 36 deg can get that by using body thermometar
 
 By using these temperatures you get really nice range of temperatures for the table.
-
 
 # Support the project
 
